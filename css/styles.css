@@ -28,3 +28,62 @@ li a:hover {
 li:last-child {
     border-right: none;
 }
+            table.center {
+            margin-left:auto; 
+            margin-right:auto;
+            }
+            body{
+                background-color:bisque;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 20px;
+
+            }
+            label{
+                float: left;
+                width: 100px;
+                height:40px;
+            }
+            input[type=text] {
+                background-color:whitesmoke ;
+                color: black;
+                border: 3px solid #555;
+                width:500px;
+                height:40px;
+                padding: 2px;
+            }
+            input[type=button], input[type=submit], input[type=reset],button {
+                background-color: #4CAF50;
+                border: none;
+                color: black;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+               
+               
+                border-radius: 30px;
+            }
+            #myTable {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #myTable td, #myTable th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #myTable tr:nth-child(even){background-color: #f2f2f2;}
+
+            #myTable tr:hover {background-color: #ddd;}
+
+            #myTable th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+            
+    
