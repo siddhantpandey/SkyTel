@@ -1,0 +1,28 @@
+<div id="container">
+  <header id="header">
+    <nav id="user-options">
+      <ul id="navigation">
+          <li><img src="../img/skytel-logo.jpg" alt="SkyTelLogo" height="42" width="42" /></li>
+          <li  routerLinkActive="active current" style="float: right"><a routerLink='/'>Personal</a></li>
+          <li routerLinkActive="active current" style="float: right"><a routerLink='/business'>Bussiness</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <br>
+    <nav id="nav-bar">
+      <ul id="navigation">
+          <li routerLinkActive="active current"><a routerLink='/'>HOME</a></li>
+          <li routerLinkActive="active current"><a routerLink='/login'>LOGIN</a></li>
+          <li routerLinkActive="active current"><a routerLink='/register'>REGISTER</a></li>
+          <li routerLinkActive="active current" style="float: right"><a routerLink='/aboutus'>ABOUT US</a></li>
+          <li routerLinkActive="active current" style="float: right"><a routerLink='/contactus'>CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--<h1>{{data}}</h1>-->
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+ 
+</div>
+<hr>
